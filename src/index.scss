@@ -1,0 +1,22 @@
+@import './styles/variables.scss';
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  margin: 0;
+  font-family: var(--primary-font) !important;
+  font-size: var(--default-font-size);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--primary-color);
+  color: var(--primary-off-color);
+  height: 100vh;
+}
+
+a {
+  color: var(--primary-off-color);
+}
+
+a:hover {
+  color: var(--highlight-color);
+  text-decoration: none;
+}

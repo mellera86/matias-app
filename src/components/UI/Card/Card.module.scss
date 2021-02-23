@@ -1,0 +1,16 @@
+.card {
+  border-radius: 4px;
+  padding: 16px 24px;
+  margin: 12px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.secondary {
+  background-color: var(--secondary-color);
+  color: var(--secondary-off-color);
+}
+
+.primary {
+  background-color: var(--primary-off-color);
+  color: var(--secondary-color);
+}

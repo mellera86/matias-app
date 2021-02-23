@@ -1,0 +1,48 @@
+:root {
+  // Current theme Colors
+  --primary-color: #3AAFA9;
+  --primary-off-color: #FEFFFF;
+  --secondary-color: #276d6b;
+  --secondary-off-color: #FEFFFF;
+  --highlight-color: #17252A;
+
+  // Main Theme Colors
+  --primary-main-color: #3AAFA9;
+  --primary-off-main-color: #FEFFFF;
+  --secondary-main-color: #276d6b;
+  --secondary-off-main-color: #FEFFFF;
+  --highlight-main-color: #17252A;
+
+  // Light Theme Colors
+  --primary-light-color: #e6e6e6;
+  --primary-off-light-color: #484848;
+  --secondary-light-color: #BEBEBE;
+  --secondary-off-light-color: #484848;
+  --highlight-light-color: #000000;
+
+  // Dark Theme Colors
+  --primary-dark-color: #484848;
+  --primary-off-dark-color: #BEBEBE;
+  --secondary-dark-color: #616161;
+  --secondary-off-dark-color: #e6e6e6;
+  --highlight-dark-color: #000000;
+
+  // Theme1
+  --primary-theme1-color: #EAE7DC;
+  --primary-off-theme1-color: #E85A4f;
+  --secondary-theme1-color: #D8C3A5;
+  --secondary-off-theme1-color: #E85A4f;
+  --highlight-theme1-color: #8E8D8A;
+
+  // Color Variants
+  --primary-lighter-color: lighten(var(--primary-color), 20%);
+  --primary-darker-color: darken(var(--primary-color), 20%);
+  --secondary-lighter-color: lighten(var(--secondary-color), 20%);
+  --secondary-darker-color: darken(var(--secondary-color), 20%);
+
+  // Fonts
+  --primary-font: 'Nunito Sans',
+    sans-serif;
+  --default-font-size: 18px;
+  --logo-font: 'Courier New';
+}

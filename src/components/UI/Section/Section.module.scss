@@ -1,0 +1,32 @@
+.section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 36px 0px;
+}
+
+.primary {
+  background-color: var(--primary-color);
+  color: var(--primary-off-color)
+}
+
+.primaryOff {
+  background-color: var(--primary-off-color);
+  color: var(--primary-color)
+}
+
+.secondary {
+  background-color: var(--secondary-color);
+  color: var(--secondary-off-color)
+}
+
+.secondaryOff {
+  background-color: var(--secondary-off-color);
+  color: var(--secondary-color)
+}
+
+.highlight {
+  background-color: var(--highlight-color);
+  color: var(--primary-off-color)
+}

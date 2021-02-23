@@ -1,0 +1,30 @@
+.navItem a {
+  color: var(--primary-off-color);
+  margin: 0 16px;
+  letter-spacing: 1px;
+}
+
+.navItem a:hover,
+.active {
+  color: var(--highlight-color) !important;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+@media (max-width: 500px) {
+  .navItem a {
+    margin: 0px;
+    letter-spacing: 1px;
+    color: --primary-off-color;
+    position: relative;
+    display: block;
+  }
+
+  .navItem a:hover,
+  .active {
+    color: var(--highlight-color) !important;
+  }
+}

@@ -1,0 +1,17 @@
+.profilePic {
+  width: 112px;
+  height: 112px;
+  position: relative;
+  border: 5px solid var(--primary-color);
+  top: 0;
+  left: 0;
+  background: url('../../../assets/images/ProfilePic.jpg') no-repeat center/contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: 110%;
+  border-radius: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  display: inline-block;
+}
