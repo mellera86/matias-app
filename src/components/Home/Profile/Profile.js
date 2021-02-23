@@ -33,7 +33,7 @@ export class Profile extends Component {
           </Col>
           <Col>
             <Card isSecondary>
-              adasadsadasads adasads adasadsadasads adasadsadasadsadasads adasadsadasadsadasads adasadsadasadsadasads adasadsadasadsadasads adasadsadasadsadasads adasadsadasadsadasads adasadsadasadsadasads adasadsadasadsadasads adasadsadasadsadasads adasadsadasadsadasads adasadsadasadsadasads adasadsadasadsadasads adasads
+              Love you linda :)
             </Card>
           </Col>
         </Row>

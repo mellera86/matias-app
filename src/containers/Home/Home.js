@@ -18,9 +18,6 @@ class Home extends Component {
         <Section kind="primary">
           <Profile></Profile>
         </Section>
-        <Section kind="primary-off">
-          <Profile></Profile>
-        </Section>
       </React.Fragment>
     )
   }
