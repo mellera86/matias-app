@@ -24,15 +24,15 @@ class Layout extends Component {
   render() {
     return (
       <React.Fragment>
-        <Sidebar show={this.state.showSidebar} sidebarClosed={this.sidebarClosedHandler}>
+        {/* <Sidebar show={this.state.showSidebar} sidebarClosed={this.sidebarClosedHandler}>
           <NavItems isSidebar linkClicked={this.sidebarClosedHandler}></NavItems>
         </Sidebar>
         <div className="container">
           <Toolbar menuClicked={this.openMenuHandler}></Toolbar>
-        </div>
+        </div> */}
         <div className={classes.sections}>
-          <Route path="/" exact component={Home} />
-          <Route path="/lab" exact component={Lab} />
+          <Route path="/" exact component={UnderConstruction} />
+          {/* <Route path="/lab" exact component={Lab} /> */}
         </div>
       </React.Fragment>
     );
