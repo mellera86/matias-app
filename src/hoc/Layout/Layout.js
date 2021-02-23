@@ -6,6 +6,7 @@ import NavItems from '../../components/UI/Toolbar/NavItems/NavItems';
 import { Route } from 'react-router-dom';
 import Lab from '../../containers/Lab/Lab';
 import classes from './Layout.module.scss';
+import UnderConstruction from '../../containers/UnderConstruction/UnderConstruction';
 
 class Layout extends Component {
   state = {
