@@ -25,8 +25,8 @@ class Layout extends Component {
     const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
     tl.fromTo("#matias", { opacity: 0 }, { opacity: 1, duration: 2 }, "+=1");
     tl.fromTo("#webdev", { opacity: 0 }, { opacity: 1, duration: 2 }, "-=1");
-    tl.to("#slider", { x: "-100%", duration: 1.5 });
-    tl.to("#overlay", { x: "-100%", duration: 1.5 }, "-=1.3");
+    tl.to("#slider", { y: "-100%", duration: 1.5 });
+    tl.to("#overlay", { y: "-100%", duration: 1.5 }, "-=1.3");
   }
 
   render() {
