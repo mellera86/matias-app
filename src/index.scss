@@ -7,7 +7,7 @@ body {
   font-size: var(--default-font-size);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: var(--primary-color);
+  background: linear-gradient(var(--primary-color), var(--secondary-color));
   color: var(--primary-off-color);
   height: 100vh;
 }

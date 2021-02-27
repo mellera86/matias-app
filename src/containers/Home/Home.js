@@ -3,13 +3,10 @@ import { connect } from 'react-redux';
 import { login, logout } from '../../store/actions';
 import Section from '../../components/UI/Section/Section';
 import Profile from '../../components/Home/Profile/Profile';
-
+import classes from './Home.module.scss';
 class Home extends Component {
   componentDidMount() {
-    // jsonPlaceholderApi.get('/todos/1')
-    //   .then(res => {
-    //     console.log(res)
-    //   })
+
   }
 
   render() {
