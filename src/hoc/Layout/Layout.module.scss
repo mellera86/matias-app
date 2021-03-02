@@ -25,7 +25,7 @@
 .matias,
 .webdev {
   font-size: 60px;
-  font-family: 'Lobster', cursive;
+  font-family: var(--secondary-font);
 }
 
 .slider {
@@ -35,6 +35,10 @@
   width: 100%;
   height: 100%;
   background-color: var(--secondary-color);
-  z-index: 13;
-  transform: translateY(100%);
+  z-index: 11;
+  transform: translateY(-100%);
+}
+
+.textContainer {
+  overflow: hidden;
 }

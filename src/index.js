@@ -5,11 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faCheckSquare, faBars } from '@fortawesome/free-solid-svg-icons';
+import { faCheckSquare, faBars, faGraduationCap, faHandshake, faSuitcase, faAward, faCircle, faDotCircle, faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 import { Provider } from 'react-redux';
 import store from './store/store';
 
-library.add(fab, faCheckSquare, faBars)
+library.add(fab, faCheckSquare, faBars, faGraduationCap, faHandshake, faSuitcase, faAward, faCircle, faDotCircle, faMoon, faSun)
 
 ReactDOM.render(
   <Provider store={store}>

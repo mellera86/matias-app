@@ -2,7 +2,7 @@
   // Current theme Colors
   --primary-color: #007991;
   --primary-off-color: #FEFFFF;
-  --secondary-color: #78ffd6;
+  --secondary-color: #35997b;
   --secondary-off-color: #FEFFFF;
   --highlight-color: #17252A;
 
@@ -41,8 +41,9 @@
   --secondary-darker-color: darken(var(--secondary-color), 20%);
 
   // Fonts
-  --primary-font: 'Nunito Sans',
-    sans-serif;
+  --primary-font: 'Rubik', sans-serif;
+  --secondary-font: 'Lobster', cursive;
+  --logo-font: 'Lobster', cursive;
   --default-font-size: 18px;
-  --logo-font: 'Courier New';
+  --font-color: rgb(88, 88, 88);
 }

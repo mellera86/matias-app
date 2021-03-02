@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { login, logout } from '../../store/actions';
-import Section from '../../components/UI/Section/Section';
-import Profile from '../../components/Home/Profile/Profile';
-import classes from './Home.module.scss';
+import MyJourney from '../../components/Home/MyJourney/MyJourney';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import Skills from '../../components/Home/Skills/Skills';
 class Home extends Component {
   componentDidMount() {
 
@@ -11,11 +13,16 @@ class Home extends Component {
 
   render() {
     return (
-      <React.Fragment>
-        <Section kind="primary">
-          <Profile></Profile>
-        </Section>
-      </React.Fragment>
+      <Container>
+        <Row noGutters={true}>
+          <Col lg={7}>
+            <MyJourney></MyJourney>
+          </Col>
+          <Col>
+            <Skills></Skills>
+          </Col>
+        </Row>
+      </Container>
     )
   }
 }
