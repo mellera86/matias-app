@@ -12,7 +12,6 @@ class Toolbar extends Component {
       <Container>
         <div className={classes.toolbar}>
           <Link className={classes.titleContainer} to="/">
-            {/* <img src={logo} className={classes.logo} alt="logo" /> */}
             <Logo />
           </Link>
           <div className={classes.barsMenu} >

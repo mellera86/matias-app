@@ -7,3 +7,38 @@
   align-items: center;
   flex-direction: column;
 }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-color);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20%;
+}
+
+.matias,
+.webdev {
+  font-size: 60px;
+  font-family: var(--secondary-font);
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--secondary-color);
+  z-index: 11;
+  transform: translateY(-100%);
+}
+
+.textContainer {
+  overflow: hidden;
+}

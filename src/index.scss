@@ -7,9 +7,9 @@ body {
   font-size: var(--default-font-size);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: var(--primary-color);
+  background: linear-gradient(var(--primary-color), var(--secondary-color));
   color: var(--primary-off-color);
-  height: 100vh;
+  min-height: 100vh;
 }
 
 a {
@@ -19,4 +19,9 @@ a {
 a:hover {
   color: var(--highlight-color);
   text-decoration: none;
+}
+
+.card-title {
+  font-size: 2rem;
+  font-weight: 300;
 }
