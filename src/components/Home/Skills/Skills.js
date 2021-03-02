@@ -23,6 +23,7 @@ export class Skills extends Component {
               <Skill rating="5">Angular</Skill> <hr />
               <Skill rating="5">HTML</Skill><hr />
               <Skill rating="5">CSS/SCSS</Skill><hr />
+              <Skill rating="5">JavaScript</Skill><hr />
               <Skill rating="4">React</Skill><hr />
               <Skill rating="3">C#</Skill><hr />
               <Skill rating="3">Java</Skill><hr />

@@ -20,6 +20,9 @@ export class JourneyEvent extends Component {
         </div>
         <div className={lineClass}></div>
         <div className={classes.event}>
+          <div className={classes.desktopYear}>
+            {this.props.year}
+          </div>
           <Card>
             <div className={classes.title}>
               <FontAwesomeIcon icon={this.props.icon} /> &nbsp;
