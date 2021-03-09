@@ -23,7 +23,7 @@ export class JourneyEvent extends Component {
           <div className={classes.desktopYear}>
             {this.props.year}
           </div>
-          <Card>
+          <Card className={classes.card}>
             <div className={classes.title}>
               <FontAwesomeIcon icon={this.props.icon} /> &nbsp;
               {this.props.title}
