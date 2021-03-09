@@ -21,8 +21,7 @@ export class MyJourney extends Component {
               Summer internship at Black Knight
             </JourneyEvent>
             <JourneyEvent year="2016" icon="graduation-cap" title="Graduation!">
-              Graduated from University of North Florida with a Computing and Information Sciences degree <br />
-              GPA: 3.85
+              Graduated from the University of North Florida with a Computing and Information Sciences degree
             </JourneyEvent>
             <JourneyEvent icon="suitcase" title="Hired!">
               Hired as a full-time Web Applications Developer I
